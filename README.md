@@ -4,11 +4,12 @@ Jeg fikk det bare for meg at jeg ville ha en app der jeg kunne sjekke hvor "dyrt
 
 <img src="https://github.com/ssredna/remaining-movies/assets/33721320/ff5b82bb-8b52-4cdc-b3b3-64f131ca90c8" width="200" alt="Screenshot of Strompris-app">
 
+Prisen er inkludert nettleie og strømstøtte.
+
 ## Forbedringspotensiale
 
 Dette er en veldig enkel app. Det var også poenget, da den ikke skulle ta lang tid å utvikle, ved siden av eksamenslesingen. Når det er sagt, så dukker det fort opp idéer til forbedring når man holder på.
 
-- Inkludere strømstøtten. Det blir jo ikke et veldig realistisk bilde av kostnaden når strømstøtten vil gjøre det billigere. Så en enkel oppgradering kan være å inkludere strømstøtten i prisene som vises.
 - Mer detaljer. F.eks. at man kan trykke på dagens pris, og så kommer det en liten dropdown som bryter ned hva prisen består av (f.eks. mva og nettleie)
 - Graf for resten av dagen. Det er jo greit nok å vite hva strømmen koster akkurat nå, men burde jeg sette på ovnen nå, eller vente en time? Det kan være greit å se pris-utviklingen utover dagen, noe en enkel graf kunne vist.
 

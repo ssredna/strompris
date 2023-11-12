@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         Padding(
                           padding: const EdgeInsets.all(16.0),
                           child: Text(
-                              '${snapshot.data!.nokPerKwhWithNettleie.toStringAsFixed(2)} NOK',
+                              '${snapshot.data!.price.toStringAsFixed(2)} NOK',
                               style: Theme.of(context).textTheme.displayMedium),
                         ),
                         Text.rich(TextSpan(
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 text: '2000 kW: ',
                               ),
                               TextSpan(
-                                text: (snapshot.data!.nokPerKwhWithNettleie * 2)
+                                text: (snapshot.data!.price * 2)
                                     .toStringAsFixed(1),
                                 style:
                                     Theme.of(context).textTheme.headlineSmall,
@@ -96,8 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 text: '1250 kW: ',
                               ),
                               TextSpan(
-                                text: (snapshot.data!.nokPerKwhWithNettleie *
-                                        1.25)
+                                text: (snapshot.data!.price * 1.25)
                                     .toStringAsFixed(1),
                                 style:
                                     Theme.of(context).textTheme.headlineSmall,
@@ -113,8 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 text: '750 kW: ',
                               ),
                               TextSpan(
-                                text: (snapshot.data!.nokPerKwhWithNettleie *
-                                        0.75)
+                                text: (snapshot.data!.price * 0.75)
                                     .toStringAsFixed(1),
                                 style:
                                     Theme.of(context).textTheme.headlineSmall,
